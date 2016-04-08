@@ -1,0 +1,28 @@
+﻿生成启动时间为 2014/11/23 19:09:40。
+     1>项目“D:\MyProgramAndDocument\OpenMP\cout\cout.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\cout.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         D:\Program\Vs2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Yu"StdAfx.h" /Fp"Debug\cout.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt cout.cpp
+         cout.cpp
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         D:\Program\Vs2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\MyProgramAndDocument\OpenMP\for\Debug\cout.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\cout.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\MyProgramAndDocument\OpenMP\for\Debug\cout.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\MyProgramAndDocument\OpenMP\for\Debug\cout.lib" /MACHINE:X86 Debug\cout.exe.embed.manifest.res
+         Debug\cout.obj
+         Debug\stdafx.obj
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\cout.exe.embed.manifest" /manifest Debug\cout.exe.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         cout.vcxproj -> D:\MyProgramAndDocument\OpenMP\for\Debug\cout.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\cout.unsuccessfulbuild”。
+         正在对“Debug\cout.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\MyProgramAndDocument\OpenMP\cout\cout.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.42

@@ -1,0 +1,15 @@
+﻿生成启动时间为 2014/11/23 21:08:24。
+     1>项目“D:\MyProgramAndDocument\OpenMP\tbb\tbb.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\tbb.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         D:\Program\Vs2010\VC\bin\CL.exe /c /ID:\Program\tbb\include\tbb /ID:\Program\tbb\include\tbb\compat\ /ID:\Program\tbb\include\tbb\internal /ID:\Program\tbb\include\tbb\machine /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\tbb.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt tbb.cpp
+         tbb.cpp
+     1>d:\myprogramanddocument\openmp\tbb\tbb.cpp(49): error C2040: “a”:“ApplyFoo”与“float [100]”的间接寻址级别不同
+     1>d:\myprogramanddocument\openmp\tbb\tbb.cpp(49): error C2512: “ApplyFoo”: 没有合适的默认构造函数可用
+     1>已完成生成项目“D:\MyProgramAndDocument\OpenMP\tbb\tbb.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:02.03
